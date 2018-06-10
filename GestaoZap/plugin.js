@@ -17,7 +17,7 @@ document.addEventListener('registerSell', function (e)
       url: ' http://gestaozap-project.mybluemix.net/api/sale',
       data: sendString
   }, function(responseText) {
-      alert(responseText);
+      // alert(responseText);
       console.log(responseText);
       /*Callback function to deal with the response*/
   });
